@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="69.0" prefHeight="26.0" prefWidth="276.0" text="Veuillez choisir une base de donnees:">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="339.0" layoutY="69.0" prefWidth="150.0" />
+      <Button layoutX="339.0" layoutY="189.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="202.0" style="-fx-border-radius: 8 8 8 8;" styleClass="import" stylesheets="@../css/fullpackstyling.css" text="Importer les fichier" textFill="#73d216" />
+   </children>
+</AnchorPane>
