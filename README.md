@@ -1,1 +1,3 @@
-# datawarehouse_maker
+# DataWarehouse Maker
+
+Automatic Data Warehouse Maker Using Java
